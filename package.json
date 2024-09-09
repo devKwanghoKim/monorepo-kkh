@@ -1,0 +1,12 @@
+{
+  "name": "monorepo-kkh",
+  "packageManager": "yarn@4.4.1",
+  "scripts": {
+    "coreui": "yarn workspace @packages/coreui",
+    "webapp": "yarn workspace @packages/webapp"
+  },
+  "workspaces": ["packages/coreui", "packages/webapp"],
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
