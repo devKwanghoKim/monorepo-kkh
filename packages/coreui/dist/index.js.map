@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../index.ts", "../components/Button/Button.tsx"],
-  "sourcesContent": ["export * from './components';", "interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {\r\n    children: React.ReactNode;\r\n  }\r\n  \r\n  function Button({ children, ...props }: Props) {\r\n    return <button {...props}>{children} 12345</button>;\r\n  }\r\n  \r\n  export default Button;"],
-  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;;;ACIE,SAAS,OAAO,IAA+B;AAA/B,eAAE,WAJpB,IAIkB,IAAe,kBAAf,IAAe,CAAb;AAChB,SAAO,CAAC,WAAW;AAAA,KAAQ;AAAA,KAAS;AAAA,EAAM,EAAlC;AACV;AAEA,IAAO,iBAAQ;",
-  "names": []
-}
