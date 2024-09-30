@@ -2,11 +2,20 @@
   "name": "@packages/webapp",
   "packageManager": "yarn@4.4.1",
   "dependencies": {
+    "@packages/coreui": "workspace:0.0.0",
     "next": "13.5.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "scripts": {
     "start:dev": "next dev"
+  },
+  "devDependencies": {
+    "@types/node": "^18.17.1",
+    "@types/react": "^18.0.25",
+    "next-transpile-modules": "^10.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.6.2"
   }
 }
