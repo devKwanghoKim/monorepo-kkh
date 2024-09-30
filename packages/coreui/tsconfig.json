@@ -1,0 +1,10 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": {
+        "baseUrl": "./",
+        "emitDeclarationOnly": true,
+        "declaration": true,
+        "jsx": "preserve"
+    },
+    "exclude": ["dist/*"]
+}

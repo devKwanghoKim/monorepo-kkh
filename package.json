@@ -5,7 +5,10 @@
     "coreui": "yarn workspace @packages/coreui",
     "webapp": "yarn workspace @packages/webapp"
   },
-  "workspaces": ["packages/coreui", "packages/webapp"],
+  "workspaces": [
+    "packages/coreui",
+    "packages/webapp"
+  ],
   "devDependencies": {
     "typescript": "^5.5.4"
   }
