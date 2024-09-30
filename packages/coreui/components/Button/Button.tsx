@@ -3,7 +3,7 @@ interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   }
   
   function Button({ children, ...props }: Props) {
-    return <button {...props}>{children} 123</button>;
+    return <button {...props}>{children} 12345</button>;
   }
   
   export default Button;

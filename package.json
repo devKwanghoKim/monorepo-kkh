@@ -3,7 +3,8 @@
   "packageManager": "yarn@4.4.1",
   "scripts": {
     "coreui": "yarn workspace @packages/coreui",
-    "webapp": "yarn workspace @packages/webapp"
+    "webapp": "yarn workspace @packages/webapp",
+    "wl" : "yarn workspaces list"
   },
   "workspaces": [
     "packages/coreui",

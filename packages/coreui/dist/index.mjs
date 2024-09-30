@@ -19,7 +19,7 @@ function Button(_a) {
   var _b = _a, { children } = _b, props = __objRest(_b, ["children"]);
   return <button {...props}>
     {children}
-    {" 123"}
+    {" 12345"}
   </button>;
 }
 var Button_default = Button;
