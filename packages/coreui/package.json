@@ -1,6 +1,16 @@
 {
   "name": "@packages/coreui",
   "packageManager": "yarn@4.4.1",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
   "devDependencies": {
     "@chromatic-com/storybook": "1.9.0",
     "@storybook/addon-essentials": "^8.2.9",
@@ -19,6 +29,10 @@
   },
   "scripts": {
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "build:dts": "tsc --build tsconfig.build.json",
+    "build:js": "node ./esbuild.config.js",
+    "build": "yarn build:dts && yarn build:js",
+    "build:dev": "yarn build:js --watch & yarn build:dts --watch"
   }
 }
