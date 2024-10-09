@@ -2001,6 +2001,9 @@ __metadata:
     storybook: "npm:^8.2.9"
     typescript: "npm:^5.6.2"
     vite: "npm:^5.4.3"
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
   languageName: unknown
   linkType: soft
 

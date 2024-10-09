@@ -38,5 +38,9 @@
     "build:js": "node ./esbuild.config.js",
     "build": "yarn build:dts && yarn build:js",
     "build:dev": "yarn build:js --watch & yarn build:dts --watch"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
   }
 }

@@ -4,7 +4,7 @@
   "scripts": {
     "coreui": "yarn workspace @packages/coreui",
     "webapp": "yarn workspace @packages/webapp",
-    "wl" : "yarn workspaces list"
+    "wl": "yarn workspaces list"
   },
   "workspaces": [
     "packages/coreui",
